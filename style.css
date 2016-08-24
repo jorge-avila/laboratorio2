@@ -1,0 +1,176 @@
+	@import 'https://fonts.googleapis.com/css?family=Indie+Flower';
+	@import 'https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico|Signika';
+	.tituloprincipal{
+		color: #fff;
+		font-family: 'Indie Flower', cursive;
+		background: rgba(0,0,0,0.5) ;
+		font-size: 200%; 
+		text-align: center;
+	}
+	
+	.title{
+		clear:both;
+		background: #0D942F;
+		border: 1px solid #000; 
+		font-family: 'Indie Flower', cursive;
+		color: #000000;
+		text-align: center;
+	}
+	
+	.box1{
+			float: left;
+			width: 10%;
+			height: 400px;
+			background: rgba(0,0,0,0.8) ;
+			color: #fff;
+			font-family: 'Signika', sans-serif;
+			border: 3px solid #000;
+	}
+	
+	.box2{
+			clear: right;
+			float:left; 
+			width: 10%;
+			height: 400px;
+			background: rgba(0,0,0,0.8) ;
+			color: #fff;
+			font-family: 'Signika', sans-serif;
+			border: 3px solid #000;
+	}
+	
+	.box3{
+			clear: right;
+			float:left;
+			width: 20%;
+			height: 400px;
+			background: rgba(0,0,0,0.8) ;
+			color: #fff;
+			font-family: 'Signika', sans-serif;
+			border: 3px solid #000;
+			
+			}
+	
+	
+	
+	@media screen and (min-width: 0px) and (max-width:767px){
+	.title{
+		float: right;
+		margin: 0% 0% 0% 70%;
+		font-size: 115%; 
+		 }
+		 
+	.box1{
+			clear: both;
+			float: none;
+			width: 70%;
+			height: 30%;
+			margin: 1% 0% 0% 15%;
+			font-size: 90%; 
+			text-align: justify;
+						
+		}
+		
+	.box2{
+			clear: both;
+			float:left; 
+			width: 70%;
+			height: 30%;
+			margin: 1% 0% 0% 15%;
+			font-size: 90%; 
+			text-align: justify;
+			
+		}
+		
+	.box3{	
+			clear: both;
+			float:bothom left;
+			width: 70%;
+			height: 30%;
+			margin: 1% 0% 0% 15%;
+			font-size: 90%; 
+			text-align: justify;
+		}
+	}
+		
+	
+	@media screen and (min-width: 768px) and (max-width:991px){
+	.title{
+			float:right;
+			margin: 0% 0% 0% 60%;
+			font-size: 115%; 
+    }
+     
+	 	 
+	.box1{
+		float: left;
+		width: 40%;
+		height: 300px;
+		margin: 1% 0% 0% 9%;
+		font-size: 85%; 
+		text-align: justify;
+		}
+		
+	.box2{
+			
+			float:right; 
+			width: 40%;
+			height: 300px;
+			margin: 1% 9% 0% 0%;
+			text-align: justify;
+			font-size: 85%; 
+			
+		}
+		
+	.box3{
+	
+			clear: both;
+			width: 82%;
+			height: 250px;
+			margin: 1% 9% 0% 9%;;
+			font-size: 85%; 
+			text-align: justify;
+		}
+	}
+	
+	
+	@media screen and (min-width: 992px){
+	.title{
+		margin: 0% 0% 0% 45%;
+		font-size: 115%; 
+		 }
+			
+	.box1{		
+		float: left;
+		width: 30%;
+		height: 300px;
+		margin: 5% 0% 0% 2%;
+		font-size: 85%; 
+		text-align: justify;
+		}
+
+	.box2{
+		float:left; 
+		width: 30%;
+		height: 300px;
+		margin: 5% 0% 0% 2%;
+		font-size: 85%; 
+		text-align: justify;
+		}
+		
+	.box3{
+		float: left;
+		width: 30%;
+		height: 300px;
+		margin: 5% 0% 0% 2%;;
+		font-size: 85%; 
+		text-align: justify;
+		}
+	}
+	
+	body{ 
+		 background:url(body.jpg);
+	     background-repeat:repeat-y;
+		 background-attachment: fixed;
+		 background-size: cover;
+		 color: #000000;
+	}
